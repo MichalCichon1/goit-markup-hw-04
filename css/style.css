@@ -42,10 +42,19 @@ ul {
   align-items: center;
 }
 .interactive:hover {
+  fill: var(--color-button-link);
   color: var(--color-button-link);
 }
 .interactive:focus {
   color: var(--color-button-link);
+}
+.contact-header {
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  line-height: 1.172;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--color-description);
 }
 .logo-header {
   padding-right: 93px;
@@ -63,7 +72,7 @@ ul {
 .list-header {
   display: flex;
   gap: 46px;
-  margin-right: 371px;
+  margin-right: 345px;
   display: flex;
   justify-content: center;
   list-style: none;
@@ -80,17 +89,17 @@ ul {
 .contact-header-atrybutes {
   display: flex;
   align-items: center;
-  gap: 50px;
 }
-.contact-header {
-  letter-spacing: 0.02em;
-  line-height: 1.172;
-  font-weight: 500;
-  text-decoration: none;
-  font-size: 14px;
-  color: var(--color-description);
+
+.interactive {
+  display: flex;
+}
+.contact-header-mail {
+  padding-right: 30px;
 }
 .background-two {
+  background: url(/images/img-background.jpg),
+    linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
   padding-top: 59px;
   padding-bottom: 59px;
   color: var(--color-text);
@@ -102,7 +111,7 @@ ul {
   justify-content: center;
   align-items: center;
   color: var(--color-text);
-  background-color: var(--background-two);
+
   gap: 30px;
 }
 .main-headline {
@@ -212,13 +221,13 @@ ul {
   letter-spacing: 0.03em;
   line-height: 1.171;
   font-size: 16px;
-  color: var(--color-logo-two);
+  color: var(--color-description);
   margin: 0 auto;
   display: flex;
   justify-content: center;
 }
 .description-team {
-  padding-bottom: 30px;
+  padding-bottom: 12px;
   padding-top: 30px;
   line-height: 1.171;
 }
@@ -328,4 +337,133 @@ ul {
   font-weight: 700;
   padding-bottom: 4px;
   padding-top: 20px;
+}
+.icon-header {
+  display: flex;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.icon-header-phone {
+  display: flex;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+.icon-team {
+  display: flex;
+  gap: 10px;
+}
+.conteiner-icons-clients {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+}
+.conteiner-icons-clients:hover {
+  cursor: pointer;
+  fill: #2196f3;
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+}
+
+.header-clients {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  line-height: 1.171;
+}
+.conteiner-clients {
+  display: flex;
+  gap: 30px;
+  padding-top: 50px;
+}
+.conteiner-social-media {
+  padding-left: 70px;
+  margin: 0;
+}
+.conteiner-footer {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header-social-media {
+  padding-bottom: 20px;
+  padding-top: 72px;
+  margin: 0px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.172;
+}
+.conteiner-background {
+  padding-top: 59px;
+}
+.background-footer {
+  padding-bottom: 59px;
+  color: var(--color-text);
+  background-color: var(--background-two);
+}
+.conteiners-aricle-icons {
+  background: #f5f4fa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  fill: #afb1b8;
+}
+.icons-team:hover {
+  cursor: pointer;
+  background-color: #2196f3;
+  fill: #ffffff;
+  border-radius: 50%;
+}
+.conteiner-team-icons {
+  display: flex;
+  width: 206px;
+  margin: 16px 32px 18px 32px;
+  align-items: center;
+  gap: 10px;
+}
+.icons-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  fill: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.conteiner-footter-icons {
+  display: flex;
+  width: 206px;
+  align-items: center;
+  gap: 10px;
+}
+.icons-footer:hover {
+  cursor: pointer;
+  background-color: #2196f3;
+  border-radius: 50%;
+}
+.pictures-fit {
+  object-fit: cover;
 }

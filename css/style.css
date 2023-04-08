@@ -98,7 +98,7 @@ ul {
   padding-right: 30px;
 }
 .background-two {
-  background: url(/images/img-background.jpg),
+  background: url(./images/img-background.jpg),
     linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
   padding-top: 59px;
   padding-bottom: 59px;
